@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-logo h1 {
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #173A56;
+}
+
+.header-nav a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+    padding: 0 15px;
+}
+
+.btn1 {
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    height: 43px;
+    width: 102px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.btn2 {
+    margin: 0 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    height: 43px;
+    width: 102px;
+    background: #02897A;
+    border-radius: 4px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-btn a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #02897A;
+}
+
+.hero {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    margin: 25px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+}
+
+.hero-text p {
+    margin: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.hero-btn-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background: #02897A;
+    border-radius: 4px;
+}
+
+.hero-btn2 {
+    margin: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    height: 53px;
+    width: 175px;
+    background: #02897A;
+    border-radius: 4px;
+}
+
+.fa-play {
+    color: #02897A;
+}
+
+#product {
+    background: url("../img/fon.png") no-repeat center/cover;
+    min-height: 75vh;
+}
+
+.product {
+
+}
+
+.product-text {
+    margin: 114px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+}
+
+.product--general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product--general--one h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+
+}
+
+.product--general--one p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+
+}
+
+.product--general--two h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+}
+
+.product--general--two p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.product--general--three h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+}
+
+.product--general--three p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D
+}
+
+.product--general--four h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+}
+
+.product--general--four p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.product--color {
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn9 {
+    height: 53px;
+    width: 175px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+}
+
+.management {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.management--text h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+    margin: 15px;
+}
+
+.management--text h1 {
+    margin: 15px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+    padding-bottom: 23px;
+}
+
+.management--text p {
+    margin: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.support {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#down {
+    background: url("../img/fon2.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.down {
+
+}
+
+.down--text {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down--text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down--asu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.down--asu2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.down--btn {
+    margin: 200px;
+    height: 53px;
+    width: 216px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+}
+
+.down-dodo {
+    margin: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sofa--text h1 {
+    margin: 9px;
+}
+
+.sofa--text p {
+    margin: 9px;
+}
+
+.sofa--market {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sofa--market2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.fon--fn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+.vovo--1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+.dark--fon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 157px;
+}
+
+.search--logo {
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+
+}
+
+.search--logo svg {
+    position: absolute;
+    left: 153px;
+    top: 6519px;
+}
+
+.jojo img, img {
+    display: flex;
+    justify-content: space-around;
+
+}
